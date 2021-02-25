@@ -1,5 +1,15 @@
-package com.epam.test.automation.java.practice8;
+/*package com.epam.test.automation.java.practice8;
+
+import org.junit.Assert;
+import org.junit.Test;
 
 public class DepositTest {
-    //TODO: Delete this line and write your own solution;
-}
+    @Test
+    public void Deposit_IsAbstractClassOrExists()
+    {
+
+    }
+
+
+
+}*/
