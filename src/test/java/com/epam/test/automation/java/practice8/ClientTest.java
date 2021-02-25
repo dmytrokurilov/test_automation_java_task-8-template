@@ -1,5 +1,13 @@
 package com.epam.test.automation.java.practice8;
 
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.math.BigDecimal;
+
 public class ClientTest {
-    //TODO: Delete this line and write your own solution;
+    @Test
+    public void getIncomeByNumberWithNullDeposit() {
+        Assert.assertEquals(new Client().getIncomeByNumber(1), new BigDecimal(0));
+    }
 }
