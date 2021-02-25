@@ -23,6 +23,6 @@ public class LongDeposit extends Deposit implements Prolongable {
     }
 
     public boolean canToProlong() {
-        return period <= 36;
+        return period < 36;
     }
 }
