@@ -23,10 +23,6 @@ public class LongDeposit extends Deposit implements Prolongable {
     }
 
     public boolean canToProlong() {
-        if (period.compareTo(BigDecimal.valueOf(36)) <= 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return period <= 36;
     }
 }
