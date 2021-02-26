@@ -7,7 +7,7 @@ public class DepositTest {
     @Test
     public void Deposit_IsAbstractClassOrExists()
     {
-
+        String type = Object.getClass(Deposit);
     }
 
 
