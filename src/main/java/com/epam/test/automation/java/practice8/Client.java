@@ -63,7 +63,7 @@ public class Client implements Iterable<Deposit> {
     }
 
     public void sortDeposits() {
-        Collections.sort(depositsList, Collections.reverseOrder());
+        if (depositsList != null) { Collections.sort(depositsList, Collections.reverseOrder()); }
     }
 
     public int countPossibleToProlongDeposit() {
